@@ -7,5 +7,11 @@ public class Studienberatung{
 		System.out.println("Hast du Abitur?");
 
 		String answer = scanner.next();
+		if(answer.equalsIgnoreCase("j")){
+			System.ou.println("Auf jeden Fall Studieren");
+		}
+		else{
+			System.out.println("Nicht studieren");
+		}
 	}
 }
