@@ -7,14 +7,16 @@ public class Studienberatung{
 		System.out.println("Hast du Abitur?");
 
 		String answer = scanner.next();
-<<<<<<< HEAD
 		if(answer.equalsIgnoreCase("n")){
-=======
-		if(answer.equalsIgnoreCase("j")){
+			System.out.println("Hast du Fachabitur?");
+			if(answer.equalsIgnoreCase("n")){
+				System.out.println("Hast du Berufserfahrung?");	
+			}
+		}
+		else if(answer.equalsIgnoreCase("j")){
 			System.ou.println("Auf jeden Fall Studieren");
 		}
 		else{
->>>>>>> bist-du-wissbegierig
 			System.out.println("Nicht studieren");
 		}
 	}
